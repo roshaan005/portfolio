@@ -25,11 +25,39 @@ body{
   background: radial-gradient(at bottom right,rgb(21, 241, 230) -50%,rgb(21, 21, 21) ,rgb(21, 21, 21));
   backdrop-filter: blur(250px);
 }
-
+:hover.disc{
+  fill:rgb(102, 117, 253)
+}
+:hover.gh{
+  fill:rgb(255, 169, 255)
+}
+:hover.twt{
+  fill:rgb(0, 153, 255);
+}
+.grid-col-2{
+  grid-template-columns: 1fr 1fr;
+}
 
 .width-99{
   width:98%;
 }
+.width-100{
+  width:99%;
+}
+.transition-s{
+  transition: width 0.5s;
+}
+.emoji{
+   font-family: 'Poppins', sans-serif;;
+}
+.circle{
+  border-radius: 50%;
+}
+
+.grid-cols-half{
+  grid-template-columns: 0.5fr 1fr;
+}
+
 .body-color{
   background-color:rgb(21, 21, 21);
 

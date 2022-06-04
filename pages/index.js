@@ -18,7 +18,7 @@ export default function Home() {
        
 <Navmobile/>
 
-<div className='mb-5 b flex flex-col  items-center w-5/6 h-fit'>
+<div className='mb-5  flex flex-col  items-center w-5/6 h-fit'>
   
   
   

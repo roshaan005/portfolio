@@ -5,12 +5,13 @@ import Link from 'next/link'
 import Navmobile from './NavMobile'
 
 
+
 function Layout() {
   return (
 
     <>
     
-     <div className='flex justify-center  lg:items-start items-center h-auto'>
+     <div className='flex justify-center  lg:items-start lg:items-center items-center h-auto'>
          <div className='w-5/6 mt-10 md:mt-32 mb-10 h-fit lg:flex lg:flex-col lg:justify-center lg:items-center '>
            <span className='text-white font-bold text-5xl md:text-7xl'>Roshan Jalil</span>
            <span className='mt-3 text-white  text-xl lg:text-2xl block'>Developer. Noob writer. Student</span>
