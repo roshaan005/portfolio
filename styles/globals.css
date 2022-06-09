@@ -18,11 +18,11 @@ body {
 body{
   
   background: -webkit-radial-gradient(bottom left,red,yellow,green);
-  background: radial-gradient(at top left,rgb(115, 101, 241) -50%,rgb(21, 21, 21),rgb(21, 21, 21));
+  background: radial-gradient(at top left,rgb(115, 101, 241) -60%,rgb(21, 21, 21),rgb(21, 21, 21));
   backdrop-filter: blur(250px);
 }
 .gradient{
-  background: radial-gradient(at bottom right,rgb(21, 241, 230) -50%,rgb(21, 21, 21) ,rgb(21, 21, 21));
+  background: radial-gradient(at bottom right,rgb(51, 40, 153) -50%,rgb(21, 21, 21) ,rgb(21, 21, 21));
   backdrop-filter: blur(250px);
 }
 :hover.disc{
@@ -86,6 +86,16 @@ a {
   text-decoration: none;
 }
 
+.text-gradient{
+  background: #ad5389;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background: #FF0099;  /* fallback for old browsers */
+
+}
 * {
   box-sizing: border-box;
 }
