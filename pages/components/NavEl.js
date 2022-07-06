@@ -36,4 +36,4 @@ function ProjectsTag({func,width}) {
   
   
 
-export {ArticleTag,ProjectsTag,ContactTag}
+export  {ArticleTag,ProjectsTag,ContactTag}

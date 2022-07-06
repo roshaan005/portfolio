@@ -5,9 +5,8 @@ import styles from '../styles/Home.module.css'
 import Layout from './components/Layout'
 import NavElements from './components/NavElements'
 import Socials from './components/Socials'
-
 import Navmobile from './components/NavMobile'
-import ProjectCards, { Projects } from './components/Projects'
+import Projects from './components/Projects'
 import Footer from './components/ Footer'
 export default function Home() {
   return (
