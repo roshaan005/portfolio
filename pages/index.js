@@ -8,6 +8,7 @@ import Socials from './components/Socials'
 
 import Navmobile from './components/NavMobile'
 import ProjectCards, { Projects } from './components/Projects'
+import Footer from './components/ Footer'
 export default function Home() {
   return (
   
@@ -30,6 +31,7 @@ export default function Home() {
   
 </div>
       </div>
+      <Footer/>
     </div>
 
   )

@@ -65,6 +65,9 @@ body{
 .project-box-color{
   background-color: #202022;
 }
+.project-box-color-hover{
+  background-color: #1b1bce;
+}
 .grid-lap{
   grid-template-columns: 1.5fr 1fr;
 }
@@ -88,14 +91,20 @@ a {
 
 .text-gradient{
   background: #ad5389;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #f0d5ff, #ff11a0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e6b6ff, #ac1ba4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* background: #FF0099;  /* fallback for old browsers */
 
 }
+.scale{
+  transition: width 0.5s;
+  transition: height 0.5s;
+}
+
+
 * {
   box-sizing: border-box;
 }

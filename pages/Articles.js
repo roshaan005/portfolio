@@ -2,16 +2,14 @@ import Layout from "./components/Layout"
 import Navmobile from "./components/NavMobile"
 import Head from "next/head"
 import ArticlesSection from "./components/ArticlesSection"
+import Footer from "./components/ Footer"
 
 export default function Articles() {
     return (
       <>
        <Head>
         <title>Articles</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"></link>
-        
+       
         
         
       </Head>
@@ -29,6 +27,8 @@ export default function Articles() {
   
   </div>
         </div>
+        <Footer/>
+
       </div>
   
      </>
