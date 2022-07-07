@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ArticleCard({title,description,date,icon}) {
+function ArticleCard({title,description,date,icon,link}) {
 
   return (
 
@@ -11,11 +11,11 @@ function ArticleCard({title,description,date,icon}) {
         {icon}
         </div>
     </div>
-    <section className='pl-2 text-white'>
+   <a href={link}> <section className='pl-2 text-white'>
         <span className='mt-6 md:text-3xl font-bold text-2xl block'>{title}</span>
         <span className='block text-gray-400 mt-2 mb-3 md:text-lg text-sm'>{description}</span>
         <span className='font-semibold '>{date}</span>
-    </section>
+    </section></a>
 
  </div>
    
