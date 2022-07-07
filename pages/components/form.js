@@ -22,7 +22,7 @@ function Form() {
   return (
     
 <form ref={form} onSubmit={sendEmail} className="lg:mb-5 flex w-full max-w-sm space-x-3">
-    <div className="w-full max-w-2xl px-5 py-10 m-auto mt-10  rounded-lg shadow dark:bg-gray-800">
+    <div className="w-full max-w-2xl px-5 py-10 m-auto mt-10  rounded-lg shadow">
         <div className="mb-6  font-light text-center text-gray-800 dark:text-white">
     
                <span className='text-2xl lg:text-4xl text-white font-semibold'>{`I'd love to hear from you!`}</span>
