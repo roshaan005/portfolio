@@ -9,6 +9,7 @@ export default function Articles() {
       <>
        <Head>
         <title>Articles</title>
+        <link rel="icon" href="../public/favicon.ico" />
        
         
         

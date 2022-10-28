@@ -10,6 +10,7 @@ export default function Contact() {
       <>
       <Head>
         <title>Contact</title>
+        <link rel="icon" href="../public/favicon.ico" />
        
         
         
