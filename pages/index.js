@@ -8,8 +8,19 @@ import Socials from './components/Socials'
 import Navmobile from './components/NavMobile'
 import Projects from './components/Projects'
 import Footer from './components/ Footer'
+
+
+
 export default function Home() {
   return (
+    <>
+    <Head>
+        <title>Home</title>
+       
+     
+        
+      </Head>
+
   
     <div className='grid w-full h-screen grid-phone sm:grid-phone sm:grid-cols-none lg:grid-cols-16 lg:grid-rows-none '>
      <Layout/>
@@ -32,7 +43,7 @@ export default function Home() {
       </div>
       <Footer/>
     </div>
-
+</>
   )
 }
 

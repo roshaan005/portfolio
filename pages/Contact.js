@@ -3,10 +3,18 @@ import Link from "next/link"
 import Navmobile from "./components/NavMobile"
 import Form from "./components/form"
 import Footer from "./components/ Footer"
+import Head from "next/head"
 
 export default function Contact() {
     return (
       <>
+      <Head>
+        <title>Contact</title>
+       
+        
+        
+      </Head>
+
      <div className='grid w-full h-screen grid-phone sm:grid-phone sm:grid-cols-none lg:grid-cols-16 lg:grid-rows-none '>
        <Layout/>
         <div className='gradient flex-col flex justify-center items-center  h-auto'>

@@ -6,7 +6,7 @@ const ProjectCard = ({tech,name,tagLine,link}) => {
     <div className='pl-10 mt-8'>
     <span className='block  text-lg text-white mb-2'>{tech}</span>
     <span className='text-2xl hover:text-gray-500 text-white font-bold'><a href={link}>{name}</a></span>
-    <span className='block mt-2 text-gray-400 pr-5'>{tagLine}</span>
+    <span className='block mt-2 text-gray-400 pr-5'><a href={link}>{tagLine}</a></span>
   
 
     </div>
