@@ -37,7 +37,7 @@ function Form() {
                 </div>
                 <div className="col-span-2 lg:col-span-2">
                     <div className=" relative ">
-                        <input type="text" id="contact-form-email" className="project-box-color  w-full border-transparent flex-1 appearance-none  w-full py-5 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" name="emailaddress" placeholder="email"/>
+                        <input type="text" id="contact-form-email" className="project-box-color  w-full border-transparent flex-1 appearance-none  w-full py-5 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" name="emailaddress" placeholder="Email Address"/>
                         </div>
                     </div>
                     <div className="col-span-2">
